@@ -1,0 +1,35 @@
+h3{
+    color: black;
+}
+.Degrade {
+background-color:#008080;
+border:2px solid black;
+border-radius:7px;
+
+}
+#extract{
+background:#8fbc8f;
+border:2px black;
+}
+#extract:hover{ 	
+font-weight: bold;
+cursor:pointer;
+text-shadow:0px 0px 7px #FFFFFF;
+	}
+label{
+	color: white;
+}	
+.loader{
+	border: 16px solid #8fbc8f;
+	border-top: 16px solid #008080;
+	border-bottom:16px solid #008080 ;
+	border-radius:50%;
+	width:15px;
+	height:15px;
+	margin-left:130px;
+	animation: spin 0.5s linear infinite;
+}
+@keyframes spin{
+	0%{ transform: rotate(0deg);}
+	100%{transform: rotate(360deg);}
+}
